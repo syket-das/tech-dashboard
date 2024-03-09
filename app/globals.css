@@ -35,3 +35,16 @@
     text-wrap: balance;
   }
 }
+
+.speedometer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content; /* Adjust for desired width */
+  height: fit-content; /* Adjust for desired height */
+}
+
+.value {
+  font-size: 2em; /* Adjust for font size */
+  margin-left: 10px; /* Adjust for value position */
+}
