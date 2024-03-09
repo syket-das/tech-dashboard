@@ -33,6 +33,7 @@ const Gauge = () => {
             }}
             labels={{
               valueLabel: {
+                // @ts-ignore
                 fontSize: 40,
                 formatTextValue: kbitsToMbits,
               },
@@ -54,6 +55,7 @@ const Gauge = () => {
                   { value: 2500 },
                   { value: 3000 },
                 ],
+                // @ts-ignore
                 valueConfig: {
                   formatTextValue: kbitsToMbits,
                 },
